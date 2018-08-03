@@ -11,10 +11,12 @@ using System.Web.Http;
 
 namespace ShopifyWebAPI.Controllers
 {
+    [RoutePrefix("shopify")]
     public class ShopifyController : ApiController
     {
         [HttpPost]
-        public IHttpActionResult TransactionCreation([FromBody] TransactionCreationRequest request)
+        [Route("transaction")]
+        public IHttpActionResult TransactionCreation(TransactionCreationRequest request)
         {
             string requestModel = JsonConvert.SerializeObject(request);
             fileWriter("TransactionCreationFromRequest", requestModel);

@@ -22,12 +22,11 @@ namespace ShopifyWebAPI.Models
         public string user_id { get; set; }
         public string parent_id { get; set; }
         public string device_id { get; set; }
-        public string receipt { get; set; }
         public string error_code { get; set; }
         public string source_name { get; set; }
-        public string payment_details { get; set; }
-        public string cvv_result_code { get; set; }
-        public string credit_card_number { get; set; }
-        public string credit_card_company { get; set; }
+        public TransactionCreationReciept Reciept { get; set; }
+        public TransactionCreationPaymentDetails payment_details { get; set; }
+
+        
     }
 }

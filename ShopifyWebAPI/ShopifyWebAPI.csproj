@@ -189,6 +189,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\TransactionCreationPaymentDetails.cs" />
+    <Compile Include="Models\TransactionCreationReciept.cs" />
     <Compile Include="Models\TransactionCreationRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
