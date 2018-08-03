@@ -1,6 +1,6 @@
 ﻿namespace ShopifyWebAPI.Models
 {
-    public class OrderPaymentProcessingMethod
+    public class OrderPaymentLineItemsTaxLines
     {
     }
 }

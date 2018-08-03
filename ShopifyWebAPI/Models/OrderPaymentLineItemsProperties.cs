@@ -1,6 +1,6 @@
 ﻿namespace ShopifyWebAPI.Models
 {
-    public class OrderPaymentCheckoutId
+    public class OrderPaymentLineItemsProperties
     {
     }
 }

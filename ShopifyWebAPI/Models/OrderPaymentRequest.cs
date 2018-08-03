@@ -53,14 +53,14 @@ namespace ShopifyWebAPI.Models
         public OrderPaymentDiscountCodes discount_codes { get; set; }
         public OrderPaymentNoteAttributes note_attributes { get; set; }
         public OrderPaymentPaymentGatewayNames payment_gateway_names { get; set; }
-        public OrderPaymentProcessingMethod processing_method { get; set; }
-        public OrderPaymentCheckoutId checkout_id { get; set; }
-        public OrderPaymentSourceName source_name { get; set; }
-        public OrderPaymentFulfillmentStatus fulfillment_status { get; set; }
+        public string processing_method { get; set; }
+        public string checkout_id { get; set; }
+        public string source_name { get; set; }
+        public string fulfillment_status { get; set; }
         public OrderPaymentTaxLines tax_lines { get; set; }
-        public OrderPaymentTags tags { get; set; }
-        public OrderPaymentContactEmail contact_email { get; set; }
-        public OrderPaymentOrderStatusUrl order_status_url { get; set; }
+        public string tags { get; set; }
+        public string contact_email { get; set; }
+        public string order_status_url { get; set; }
         public OrderPaymentLineItems line_items { get; set; }
         public OrderPaymentShippingLines shipping_lines { get; set; }
         public OrderPaymentBillingAddress billing_address { get; set; }
